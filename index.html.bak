@@ -249,8 +249,8 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="testimonial-wrap">
-                <div class="testimonial">
 				<img src="assets/img/matma.jpg" alt="Image" class="img-fluid">
+                <div class="testimonial">
                   <blockquote>
                     <p>JAKIŚ TEKST</p>
                   </blockquote>
