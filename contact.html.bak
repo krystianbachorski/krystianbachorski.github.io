@@ -159,10 +159,7 @@
 
 </html>
 
-<!--
-
 <?php
-/*
     $to = 'krystian2254@op.pl';
     $subject = $_POST['subject'];
     $message = '<b>Wiadomość od:</b> '.$_POST['email'].'<br><b>Treść wiadomości:</b><br>'.$_POST['message'];
