@@ -159,32 +159,7 @@
 
 </html>
 
-<?php
-    $to = 'krystian2254@op.pl';
-    $subject = $_POST['subject'];
-    $message = '<b>Wiadomość od:</b> '.$_POST['email'].'<br><b>Treść wiadomości:</b><br>'.$_POST['message'];
-   
-   $headers  = "From: Email ze strony < krystian2254@op.pl >\n";
-  //  $headers .= "Cc: Kopia do < kopia@dokogos >\n";
-    $headers .= "X-Sender: Email ze strony < krystian2254@op.pl >\n";
-    $headers .= 'X-Mailer: PHP/' . phpversion();
-    $headers .= "X-Priority: 1\n"; // Urgent message!
-    $headers .= "Return-Path: krystian2254@op.pl\n"; // Return path for errors
-    $headers .= "MIME-Version: 1.0\r\n";
-    $headers .= "Content-Type: text/html; charset=utf-8\n";
-   $headers .= "Reply-to: ".$_POST['email']."\r\n";
-   if ($_POST['message']<>'') {
-   
-   if( mail($to, $subject, $message, $headers))
-   {
-    echo 'Wiadomość wysłana';
-    }
-   }
-   else {
-      echo "<font style='color:red;'><b>Wpisz treść wiadomości</b></font>";
-   }
-   ?>
-
+<!--
     <form id="formularzKontaktowy" class="form-horizontal" action="phpmail.php" method="post">
 
     <div class="control-group">
